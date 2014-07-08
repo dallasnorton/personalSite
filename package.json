@@ -1,15 +1,15 @@
 {
-  "name": "dallasnortonSite",
-  "version": "0.0.0",
-  "description": "",
-  "main": "web.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Dallas Norton",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.5.0",
-    "logfmt": "^1.1.2"
-  }
+    "name": "dallasnorton",
+    "version": "0.0.0",
+    "description": "",
+    "main": "web.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Dallas Norton",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.5.0",
+        "logfmt": "^1.1.2"
+    }
 }

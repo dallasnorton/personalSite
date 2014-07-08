@@ -1,0 +1,72 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'fs' ]
+2 info using npm@1.4.7
+3 info using node@v0.10.26
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json dallasnorton@0.0.0 No description
+6 warn package.json dallasnorton@0.0.0 No repository field.
+7 warn package.json dallasnorton@0.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'fs', null ]
+10 verbose cache add name=undefined spec="fs" args=["fs",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'fs',
+11 verbose parsed url   path: 'fs',
+11 verbose parsed url   href: 'fs' }
+12 silly lockFile 3f4bb586-fs fs
+13 verbose lock fs /Users/dallasnorton/.npm/3f4bb586-fs.lock
+14 silly lockFile 3f4bb586-fs fs
+15 silly lockFile 3f4bb586-fs fs
+16 verbose addNamed [ 'fs', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile a107b96b-fs fs@
+19 verbose lock fs@ /Users/dallasnorton/.npm/a107b96b-fs.lock
+20 silly addNameRange { name: 'fs', range: '*', hasData: false }
+21 verbose url raw fs
+22 verbose url resolving [ 'https://registry.npmjs.org/', './fs' ]
+23 verbose url resolved https://registry.npmjs.org/fs
+24 info trying registry request attempt 1 at 23:45:53
+25 verbose etag "1OSDV99VBWRHBCJ8QK1200EE7"
+26 http GET https://registry.npmjs.org/fs
+27 http 304 https://registry.npmjs.org/fs
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Tue, 08 Jul 2014 05:45:51 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     etag: '"1OSDV99VBWRHBCJ8QK1200EE7"',
+28 silly registry.get     'cache-control': 'max-age=30',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'x-served-by': 'cache-dfw1827-DFW',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1404798351.885438,VS0,VE55',
+28 silly registry.get     'content-length': '0',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 verbose etag fs from cache
+30 silly addNameRange number 2 { name: 'fs', range: '*', hasData: true }
+31 silly addNameRange versions [ 'fs', [] ]
+32 error TypeError: Cannot read property 'latest' of undefined
+32 error     at next (/usr/local/lib/node_modules/npm/lib/cache.js:772:35)
+32 error     at /usr/local/lib/node_modules/npm/lib/cache.js:760:5
+32 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:148:7)
+32 error     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:133:7
+32 error     at Object.oncomplete (fs.js:107:15)
+33 error If you need help, you may report this *entire* log,
+33 error including the npm and node versions, at:
+33 error     <http://github.com/npm/npm/issues>
+34 error System Darwin 13.2.0
+35 error command "node" "/usr/local/bin/npm" "install" "fs"
+36 error cwd /Users/dallasnorton/Code/Projects/dallasnorton
+37 error node -v v0.10.26
+38 error npm -v 1.4.7
+39 error type non_object_property_load
+40 verbose exit [ 1, true ]
