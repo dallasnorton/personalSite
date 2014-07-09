@@ -1,33 +1,8 @@
-// var express = require('express'),
-//     fs = require('fs'),
-//     bodyParser = require('body-parser');
-
-// app = express();
-
-// var options = {
-//     key: fs.readFileSync('./ssl/key.pem'),
-//     cert: fs.readFileSync('./ssl/cert.pem')
-// };
-
-// app.use(express.static(__dirname + '/public'))
-//     .use(bodyParser.json());
-
-// serverhttps = require('https')
-//     .createServer(options, app);
-
-// // Redirect http(80) to https(443)
-// // http = express();
-// // http.get('*', function(req, res) {
-// //     res.redirect('https://tharris7.lab.novell.com' + req.url)
-// // });
-// // http.listen(80);
-// asdfas
-// serverhttps.listen(443);
-// console.log(new Date() + ' Express server is listening securely on port ' + '443');
-
-
 var path = require('path'),
-    express = require('express');
+    express = require('express'),
+    compression = require('compression'),
+    serveStatic = require('serve-static'),
+    logger = require('morgan');
 
 var app =  express();
 
@@ -37,10 +12,18 @@ app.set('views', path.join(__dirname, 'views'));
 
 app.engine('jade', require('jade').__express);
 
-app.use(express.compress());
+app.use(compression());
 
 // static middleware - can be multiple dirs
-app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31536000000 /* 1 year - only do this if you version assets */ }));
+app.use(serveStatic(path.join(__dirname, 'public')));
 
 
-app.use(express.logger({ format: 'dev' }));
+app.use(logger({ format: 'dev' }));
+
+var port = process.env.PORT || 8080;
+
+app.listen(port, function(err) {
+    if(err) return console.error('Error starting server: ', err);
+
+    console.log('Http server started @ http://localhost:'+port);
+});
