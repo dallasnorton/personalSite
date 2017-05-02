@@ -6,11 +6,13 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>Dallas Norton</h2>
+          <h1 className="logo">DALLAS NORTON</h1>
         </div>
-        <p className="App-intro">
-          My content yo
-        </p>
+        <div className="main-wrapper">
+          <p className="App-intro">
+            My content yo
+          </p>
+        </div>
       </div>
     );
   }
