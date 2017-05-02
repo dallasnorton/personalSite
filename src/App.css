@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: #222;
   height: 150px;
@@ -16,4 +11,10 @@
 
 .App-intro {
   font-size: large;
+}
+
+.main-wrapper {
+  position: relative;
+  margin-top: 150px;  
+  /*need media queries for margin-top*/
 }
