@@ -23,4 +23,11 @@ class App extends Component {
 //   return <div>Article #{props.num}</div>;
 // }
 
+// This website is to help me keep up. There is so much going 
+// on on the web that its hard to know what you don’t know. 
+// In the words of Confucius “Real knowledge is to know the extent of one’s ignorance”
+
+// Dunning-Kruger effect
+
+// remember that code is read far more than it's written
 export default App;
