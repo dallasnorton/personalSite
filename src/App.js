@@ -7,7 +7,7 @@ class App extends Component {
     const articles = [ {
         title: 'AngularJS: `template` vs `templateUrl`',
         href: 'https://medium.com/@frosty/angularjs-template-vs-templateurl-cdde055b7907',
-        takeaways: 'DO THIS!!! READ THE ARTICLE!',
+        takeaways: 'I guess I never really thought about the issue of making requests for templates using templateURL or using a build tool. On the personal projects I have worked on they have been small enough that making additional network requests for templates hasn\'t been a problem and also by having a large bundle. It\'s great to work on such a large application to get exposure to different types of problems.',
         author: 'Aaron Frost',
         authorLink: 'https://twitter.com/js_dev',
         date: new Date('May 9, 2017')
