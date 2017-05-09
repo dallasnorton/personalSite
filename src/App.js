@@ -4,27 +4,20 @@ import Articles from './Articles';
 
 class App extends Component {
   render() {
-    const articles = [{
-        index: 1, 
+    const articles = [ {
+        title: 'AngularJS: `template` vs `templateUrl`',
+        href: 'https://medium.com/@frosty/angularjs-template-vs-templateurl-cdde055b7907',
+        takeaways: 'DO THIS!!! READ THE ARTICLE!',
+        author: 'Aaron Frost',
+        authorLink: 'https://twitter.com/js_dev',
+        date: new Date('May 9, 2017')
+      }, {
         title: 'There\'s more ot HTML escaping than &, <, >, and "',
         href: 'http://wonko.com/post/html-escaping',
         takeaways: 'Read this article to tighten security around a feature I inherited that used lodash _.escape but that can even fall to XSS in the case of the all the extra special characters like `, , !, @, $, %, (, ), =, +, {, }, [, and ]. One of the key takeaways is context is key. In which context am I going to be using my users input? Ryan Grove also links a few other references that I will need to go back to when I get more time.',
         author: 'Ryan Grove',
-        date: '5/1/17'
-      }, {
-        index: 2, 
-        title: 'Two',
-        href: 'http://www.google.com',
-        takeaways: '',
-        author: '',
-        date: ''
-      }, {
-        index: 3, 
-        title: 'Three',
-        href: 'http://espn.go.com',
-        takeaways: '',
-        author: '',
-        date: ''
+        authorLink: 'https://twitter.com/yaypie',
+        date: new Date('May 1, 2017')
       }];
     
     return (

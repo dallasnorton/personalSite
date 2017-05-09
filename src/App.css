@@ -57,6 +57,20 @@
 
 .article-wrapper {
   margin: 20px 0px 20px 0px;
+
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.article-wrapper a {
+  text-decoration: none;
+  color: #2455c3;
+}
+.article-wrapper a:hover {
+  text-decoration: underline;
+}
+.article-wrapper a:visited {
+  color: #2455c3;
 }
 
 .article-wrapper h3 {
@@ -65,20 +79,16 @@
   line-height: 24px;
 }
 
-.article-title-link {
-  text-decoration: none;
-  color: #2455c3;
-}
-
-.article-title-link:visited {
-  color: #2455c3;
-}
-
-
 .article-details {
   display: flex;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .article-details .article-author {
   margin-right: 10px;
+}
+
+.article-details .article-author a {
+  font-weight: normal;
 }

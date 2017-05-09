@@ -4,9 +4,10 @@ import Article from './Article';
 class Articles extends Component {
   constructor(props) {
     super(props);
-    this.articleList = this.props.articles.map((article) => {
+    this.articleList = this.props.articles.map((article, index) => {
+      // order by date
       return <Article 
-                key={article.index} 
+                key={index} 
                 articleObj={article}
               />
     });
