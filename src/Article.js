@@ -5,7 +5,8 @@ const monthNames = ["January", "February", "March", "April", "May", "June", "Jul
 class Article extends Component {
   constructor(props) {
     super(props);
-    this.dateString = monthNames[this.props.articleObj.date.getMonth()] + ' ' + this.props.articleObj.date.getDate() +', ' + this.props.articleObj.date.getFullYear();
+    const dateObj = new Date(this.props.articleObj.date);
+    this.dateString = monthNames[dateObj.getMonth()] + ' ' + dateObj.getDate() +', ' + dateObj.getFullYear();
   }
 
   render() {
