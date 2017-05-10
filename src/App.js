@@ -26,8 +26,10 @@ class App extends Component {
           <h1 className="logo">DALLAS NORTON</h1>
         </div>
         <div className="main-wrapper">
-          <div className="App-intro">Welcome, I use this website to keep a history of articles I have recently read and will make note of key points and/or things I have learned from said article.</div>
-          <Articles className="article-container"   articles={articles}/>
+          <div className="content-wrapper">
+            <div className="App-intro">Welcome, I use this website to keep a history of articles I have recently read and will make note of key points and/or things I have learned from said article.</div>
+            <Articles className="article-container"   articles={articles}/>
+          </div>
         </div>
       </div>
     );

@@ -37,11 +37,18 @@
   position: relative;
   min-height: 100%;
   margin-top: 100px;  
-  padding: 20px;
   border-top: 1px solid rgb(216, 216, 216);
   display: flex;
   flex-direction: column;
+  align-items: center;
   /*need media queries for margin-top*/
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  padding: 20px;
 }
 
 @media only screen and (max-width: 52em) {
