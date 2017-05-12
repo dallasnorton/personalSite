@@ -1,0 +1,14 @@
+.right-side-bar {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-quip {
+  font-size: xx-large;
+  margin: 20px 0px 5px 0px;
+}
+
+.intro-message {
+  margin-bottom: 40px;
+}

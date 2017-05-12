@@ -35,8 +35,8 @@ class App extends Component {
         </div>
         <div className="main-wrapper">
           <div className="content-wrapper">
-            <Articles className="article-container"  articles={articles}/>
-            <RightSideBar className="right-side-bar"/>
+            <Articles articles={articles}/>
+            <RightSideBar/>
           </div>
         </div>
       </div>

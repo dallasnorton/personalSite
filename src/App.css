@@ -28,11 +28,6 @@
   font-size: 2em;
 }
 
-.App-intro {
-  font-size: large;
-  margin: 20px 0px 20px 0px;
-}
-
 .main-wrapper {
   position: relative;
   min-height: 100%;
@@ -46,7 +41,6 @@
 
 .content-wrapper {
   display: flex;
-  flex-direction: column;
   max-width: 960px;
   padding: 20px;
 }
@@ -62,40 +56,3 @@
   }
 }
 
-.article-wrapper {
-  margin: 20px 0px 20px 0px;
-
-  font-size: 14px;
-  line-height: 24px;
-}
-
-.article-wrapper a {
-  text-decoration: none;
-  color: #2455c3;
-}
-.article-wrapper a:hover {
-  text-decoration: underline;
-}
-.article-wrapper a:visited {
-  color: #2455c3;
-}
-
-.article-wrapper h3 {
-  margin: 0;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.article-details {
-  display: flex;
-  font-size: 14px;
-  line-height: 24px;
-}
-
-.article-details .article-author {
-  margin-right: 10px;
-}
-
-.article-details .article-author a {
-  font-weight: normal;
-}
