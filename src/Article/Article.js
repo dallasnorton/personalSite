@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Article.css';
 
 const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 

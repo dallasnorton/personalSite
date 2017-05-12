@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Article from './Article';
+import Article from '../Article/Article';
+import './Articles.css';
 
 class Articles extends Component {
   constructor(props) {
