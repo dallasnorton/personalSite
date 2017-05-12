@@ -2,6 +2,7 @@
   padding-left: 50px;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 .welcome-quip {
@@ -11,4 +12,11 @@
 
 .intro-message {
   margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 736px) {
+  .right-side-bar {
+    padding-left: 0px;
+    order: 1;
+  }
 }

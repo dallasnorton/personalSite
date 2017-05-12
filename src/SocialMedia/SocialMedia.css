@@ -20,3 +20,20 @@
   align-items: center;
   padding-bottom: 5px;
 }
+
+.social-media-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 736px) {
+  .social-media-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .social-media-wrapper {
+    width: 50%;
+  }
+}
