@@ -18,5 +18,10 @@
   .right-side-bar {
     padding-left: 0px;
     order: 1;
+    padding-bottom: 20px;
+  }
+
+  .intro-message {
+    margin-bottom: 10px;
   }
 }
