@@ -8,7 +8,7 @@ import AppHeader from './AppHeader/AppHeader';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <AppHeader/>
         <div className="main-wrapper">
           <div className="content-wrapper">

@@ -1,26 +1,20 @@
-.App {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 .main-wrapper {
-  position: relative;
-  min-height: 100%;
-  margin-top: 100px;  
-  border-top: 1px solid rgb(216, 216, 216);
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*need media queries for margin-top*/
 }
 
 .content-wrapper {
   display: flex;
   max-width: 960px;
-  padding: 20px;
 }
 
 @media only screen and (max-width: 736px) {
@@ -28,15 +22,3 @@
     flex-direction: column;
   }
 }
-
-@media only screen and (max-width: 52em) {
-  .logo {
-    margin-left: -10%;
-  }
-}
-@media only screen and (max-width: 320px) {
-  .logo {
-    margin-left: -13%;
-  }
-}
-

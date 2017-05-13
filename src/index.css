@@ -10,10 +10,22 @@ aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu,
   vertical-align: baseline;
 }
 
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
+  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   position: relative;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
+#root {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
