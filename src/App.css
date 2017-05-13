@@ -18,6 +18,10 @@
 }
 
 @media only screen and (max-width: 736px) {
+  .app {
+    overflow: auto;
+  }
+  
   .content-wrapper {
     flex-direction: column;
   }

@@ -8,5 +8,7 @@
 @media only screen and (max-width: 736px) {
   .article-container {
     order: 2;
+    overflow: initial;
+    flex-grow: initial;
   }
 }
