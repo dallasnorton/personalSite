@@ -16,7 +16,7 @@ class App extends Component {
             <RightSideBar/>
           </div>
           <footer className="site-footer">
-            <span classNMe="site-footer-owner">© 2017 Dallas Norton</span>
+            <span className="site-footer-owner">© 2017 Dallas Norton</span>
           </footer>
         </div>
       </div>

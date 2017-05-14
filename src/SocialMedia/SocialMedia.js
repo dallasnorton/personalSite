@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './SocialMedia.css';
+import avatarImg from './avatar.jpg';
+
 const socialMediaData = [
   {
     company: 'twitter',
@@ -43,8 +45,13 @@ class SocialMedia extends Component {
     });
   }
   render() {
-    return <div className="social-media-container">
-      {this.socialMediaSites}
+    return <div className="social-avatar">
+      <span className="avatar-container">
+        <img src={avatarImg} alt="avatar" className="avatar-circle"/>
+      </span>
+      <div className="social-media-container">
+        {this.socialMediaSites}
+      </div>
     </div>;
   }
 }

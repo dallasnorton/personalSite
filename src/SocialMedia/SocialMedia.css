@@ -7,12 +7,26 @@
 .social-media-wrapper {
   display: flex;
   align-items: center;
-  padding-bottom: 5px;
+  /*padding-bottom: 5px;*/
 }
 
 .social-media-container {
   display: flex;
   flex-direction: column;
+}
+
+.social-avatar {
+  display: flex;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.avatar-circle {
+  border-radius: 50%;
 }
 
 @media only screen and (max-width: 736px) {
@@ -24,5 +38,10 @@
   
   .social-media-wrapper {
     width: 50%;
+  }
+
+  .avatar-circle {
+    width: 50px;
+    height: 50px;
   }
 }
