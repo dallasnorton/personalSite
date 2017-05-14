@@ -4,18 +4,7 @@
   line-height: 24px;
 }
 
-.article-wrapper a {
-  text-decoration: none;
-  color: #2455c3;
-}
-.article-wrapper a:hover {
-  text-decoration: underline;
-}
-.article-wrapper a:visited {
-  color: #2455c3;
-}
-
-.article-wrapper h3 {
+.article-wrapper h3.article-title {
   margin: 0;
   font-size: 18px;
   line-height: 24px;
@@ -33,4 +22,8 @@
 
 .article-details .article-author a {
   font-weight: normal;
+}
+
+.article-wrapper p.article-takeaways {
+  margin: 0px;
 }

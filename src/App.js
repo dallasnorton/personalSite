@@ -10,11 +10,14 @@ class App extends Component {
     return (
       <div className="app">
         <AppHeader/>
-        <div className="main-wrapper">
+        <div className="main-content main-wrapper">
           <div className="content-wrapper">
             <Articles articles={articlesData.articles}/>
             <RightSideBar/>
           </div>
+          <footer className="site-footer">
+            <span classNMe="site-footer-owner">© 2017 Dallas Norton</span>
+          </footer>
         </div>
       </div>
     );

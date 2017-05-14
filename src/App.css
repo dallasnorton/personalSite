@@ -1,27 +1,13 @@
 .app {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-
-.main-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .content-wrapper {
   display: flex;
-  max-width: 960px;
 }
 
 @media only screen and (max-width: 736px) {
-  .app {
-    overflow: auto;
-  }
-  
   .content-wrapper {
     flex-direction: column;
   }

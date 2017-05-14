@@ -10,8 +10,8 @@ const welcomeQuips = ['Welcome!', 'Hello!', 'Hi!', 'Hey,', 'Sup.', 'Suh Dude.', 
 class RightSideBar extends Component {
   render() {
     return <div className="right-side-bar">
-      <p className="welcome-quip">{welcomeQuips[Math.floor(Math.random() * welcomeQuips.length)]}</p>
-      <p className="intro-message">I am a passionate software engineer, who loves building amazing experiences. As most developers know, its hard to keep up with everything going on. In the words of Confucius “Real knowledge is to know the extent of one’s ignorance”. Leveraging Confucius's wisdom I'm keeping notes of the little bites of wisdom I learn from all across the web, and you can find them all here.</p>
+      <h1 className="welcome-quip">{welcomeQuips[Math.floor(Math.random() * welcomeQuips.length)]}</h1>
+      <p id="intro-message">I am a passionate software engineer, who loves building amazing experiences. As most developers know, its hard to keep up with everything going on. In the words of Confucius “Real knowledge is to know the extent of one’s ignorance”. Leveraging Confucius's wisdom I'm keeping notes of the little bites of wisdom I learn from all across the web, and you can find them all here.</p>
       <SocialMedia />
     </div>;
   }

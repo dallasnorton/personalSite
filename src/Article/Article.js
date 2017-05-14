@@ -12,8 +12,8 @@ class Article extends Component {
 
   render() {
     return <div className="article-wrapper">
-      <h3>
-        <a href={this.props.articleObj.href} className="article-title-link">{this.props.articleObj.title}</a>
+      <h3 className="article-title">
+        <a href={this.props.articleObj.href}>{this.props.articleObj.title}</a>
       </h3>
       <div className="article-details">
         <span className="article-author">by: <a href={this.props.articleObj.authorLink}>{this.props.articleObj.author}</a></span>

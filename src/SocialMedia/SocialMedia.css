@@ -1,17 +1,6 @@
-.social-media-link {
-  text-decoration: none;
-  color: #2455c3;
-}
-.social-media-link:hover {
-  text-decoration: underline;
-}
-.social-media-link:visited {
-  color: #2455c3;
-}
-
 .social-media-icons {
-  width: 18px;
-  height: 18px;
+  width: 24px;
+  height: 24px;
   padding-right: 10px;
 }
 

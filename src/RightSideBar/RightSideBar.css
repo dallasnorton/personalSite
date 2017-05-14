@@ -5,12 +5,8 @@
   flex-grow: 1;
 }
 
-.welcome-quip {
-  font-size: xx-large;
-  margin: 20px 0px 5px 0px;
-}
-
-.intro-message {
+#intro-message {
+  margin-top: 0px;
   margin-bottom: 40px;
 }
 
@@ -24,7 +20,7 @@
     flex-shrink: 0;
   }
 
-  .intro-message {
-    margin-bottom: 10px;
+  #intro-message {
+    margin-bottom: 20px;
   }
 }

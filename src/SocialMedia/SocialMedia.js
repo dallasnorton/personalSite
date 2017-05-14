@@ -37,7 +37,7 @@ class SocialMedia extends Component {
     this.socialMediaSites = socialMediaData.map((site, index) => {
       return <div key={index} className="social-media-wrapper">
         <svg className="social-media-icons" viewBox={site.iconViewBox}><path d={site.icon}></path></svg>
-        <a href={site.address} className="social-media-link">{site.title}</a>
+        <a href={site.address}>{site.title}</a>
       </div>;
 
     });
