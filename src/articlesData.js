@@ -1,8 +1,15 @@
 export default {
   "articles": [{
+    "title": "Normalizing Cross-browser Flexbox Bugs",
+    "href": "https://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/",
+    "takeaways": "Not the most exciting article for myself, but something I ran across as I was actually building this site so I thought I shouhld read through the entire article. Plus its written by a Google engineer and I hear those people are kinda smart. The problem for me was when viewing this site on a smaller screen. The `RightSideBar/IntroMessage` and the articles were overallaping each other, this is because Chrome, Opera, and Safari currently ignore the flexbox specification that allows flex items to shrink to zero. Before finishing the article changing the rightsidebard to use `display:block;` fixed the issue but this would break later when those browsers fixed their implmentations. So following the strategy of Philip and using his wisdom you can also set `flex-shink: 0;' and you get the excpected behavior and it will continue to work once the bugs are fixed.",
+    "author": "Philip Walton",
+    "authorLink": "https://twitter.com/philwalton",
+    "date": "May 13, 2017"
+    }, {
     "title": "ES6 Modules in Chrome Canary (M60+)",
     "href": "https://medium.com/dev-channel/es6-modules-in-chrome-canary-m60-ba588dfb8ab7",
-    "takeaways": "Very exciting stuff. if you are not aware in ES6 modules were introduced to Javascript. They are one of the last features of ES6 to get implemented across all browsers, espcially of the large features. Only new everygreen browsers will use module, o more including polyfills or needing to compile JS so you can use latest features. Overall you will see faster development process and faster browsers.",
+    "takeaways": "Very exciting stuff. If you are not aware in ES6 modules were introduced to Javascript. They are one of the last features of ES6 to get implemented across all browsers, espcially of the large features. Only new everygreen browsers will use module, o more including polyfills or needing to compile JS so you can use latest features. Overall you will see faster development process and faster browsers.",
     "author": "Sam Thorogood",
     "authorLink": "https://twitter.com/samthor",
     "date": "May 12, 2017"

@@ -21,6 +21,7 @@
     padding-bottom: 20px;
     order: 1;
     flex-grow: initial;
+    flex-shrink: 0;
   }
 
   .intro-message {
