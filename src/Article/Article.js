@@ -13,7 +13,7 @@ class Article extends Component {
   render() {
     return <div className="article-wrapper">
       {this.props.articleObj.hasOwnProperty('videoLink') ? (
-        <iframe width="560" height="315" src={this.props.articleObj.videoLink} frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" title={this.props.articleObj.href} src={this.props.articleObj.videoLink} frameBorder="0" allowFullScreen></iframe>
       ) : ( 
         <h3 className="article-title">
           <a href={this.props.articleObj.href}>{this.props.articleObj.title}</a>
