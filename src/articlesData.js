@@ -1,7 +1,6 @@
 export default {
   "articles": [{
     "title": "DevTools: State of the Union 2017 (Google I/O '17)",
-    "href": "https://www.youtube.com/watch?v=PjjlwAvV8Jg",
     "videoLink": "https://www.youtube.com/embed/PjjlwAvV8Jg?rel=0",
     "takeaways": "Bringing you something a little differen this time. This video goes through all the new features that Chrome Dev Tools have gotten, and will soon get. I love seeing the features I can soon use and be able to leverage to make my debugging erasier. It's also encouraging to see how much progress and work Google puts into it's products, it makes me want to do all that is possible to always deliver and excellent product.",
     "author": "Paul irish",
