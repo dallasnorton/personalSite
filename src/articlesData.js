@@ -1,5 +1,13 @@
 export default {
   "articles": [{
+    "title": "DevTools: State of the Union 2017 (Google I/O '17)",
+    "href": "https://www.youtube.com/watch?v=PjjlwAvV8Jg",
+    "videoLink": "https://www.youtube.com/embed/PjjlwAvV8Jg?rel=0",
+    "takeaways": "Bringing you something a little differen this time. This video goes through all the new features that Chrome Dev Tools have gotten, and will soon get. I love seeing the features I can soon use and be able to leverage to make my debugging erasier. It's also encouraging to see how much progress and work Google puts into it's products, it makes me want to do all that is possible to always deliver and excellent product.",
+    "author": "Paul irish",
+    "authorLink": "https://twitter.com/paul_irish",
+    "date": "May 26, 2017"
+    },{
     "title": "Normalizing Cross-browser Flexbox Bugs",
     "href": "https://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/",
     "takeaways": "Not the most exciting article for myself, but something I ran across as I was actually building this site so I thought I shouhld read through the entire article. Plus its written by a Google engineer and I hear those people are kinda smart. The problem for me was when viewing this site on a smaller screen. The `RightSideBar/IntroMessage` and the articles were overallaping each other, this is because Chrome, Opera, and Safari currently ignore the flexbox specification that allows flex items to shrink to zero. Before finishing the article changing the rightsidebard to use `display:block;` fixed the issue but this would break later when those browsers fixed their implmentations. So following the strategy of Philip and using his wisdom you can also set `flex-shink: 0;' and you get the excpected behavior and it will continue to work once the bugs are fixed.",

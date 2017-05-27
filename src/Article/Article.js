@@ -12,9 +12,13 @@ class Article extends Component {
 
   render() {
     return <div className="article-wrapper">
-      <h3 className="article-title">
-        <a href={this.props.articleObj.href}>{this.props.articleObj.title}</a>
-      </h3>
+      {this.props.articleObj.hasOwnProperty('videoLink') ? (
+        <iframe width="560" height="315" src={this.props.articleObj.videoLink} frameborder="0" allowfullscreen></iframe>
+      ) : ( 
+        <h3 className="article-title">
+          <a href={this.props.articleObj.href}>{this.props.articleObj.title}</a>
+        </h3>
+      )}
       <div className="article-details">
         <span className="article-author">by: <a href={this.props.articleObj.authorLink}>{this.props.articleObj.author}</a></span>
         <span className="article-date">{this.dateString}</span>
