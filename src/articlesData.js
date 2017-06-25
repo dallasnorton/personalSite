@@ -1,5 +1,20 @@
 export default {
-  "articles": [{
+  "articles": [
+    {
+    "title": "Fluent Conf",
+    "href": "https://conferences.oreilly.com/fluent/fl-ca",
+    "takeaways": "I am very lucky to be sent to Fluent Conf this year. It was my first time going and it was a mixed bag. I signed up for one day of trainings which were a let down, but the conference and the keynotes were significantly better. The browser hacker's guide to instantly loading everything by Addy Osmani stood out the most to me. He covered new primitives I have never used such as preload, preconnect, prefetch and HTTP/2 server push. A lot of these features are extremly powerful and when leveraged can help you build a PWA which this site is working on becoming currently. With the features and functionilty ability also allows for it to be abused which is a great note to make sure you are using these appropriatly.",
+    "author": "O'Reilly Fluent",
+    "authorLink": "https://twitter.com/FluentConf",
+    "date": "June 24, 2017"
+    }, {
+    "title": "The Stat of Angular and the Due Date of Version 5",
+    "href": "https://hackernoon.com/the-state-of-angular-and-the-due-date-of-version-5-68374002267f",
+    "takeaways": "As of late I haven't been keeping up with Angular, especially since at work we are still using AngularJS and are debating which framework to use in the future. This site is built with React and I think that is where my preference is going but I saw this article and and wanted to see what's going on in Angular land. Seems like updates keep churning out and they are slowing adding in features release by release. The biggest jump for version 4 is because they updating Angular to v2 of Typescript which would be a breaking change requiring Angular to update to stay semantically correct with it's own versioning.",
+    "author": "Dor Moshe",
+    "authorLink": "https://twitter.com/DorMoshe",
+    "date": "June 24, 2017"
+    }, {
     "title": "DevTools: State of the Union 2017 (Google I/O '17)",
     "href": "https://www.youtube.com/watch?v=PjjlwAvV8Jg",
     "videoLink": "https://www.youtube.com/embed/PjjlwAvV8Jg?rel=0",
@@ -7,7 +22,7 @@ export default {
     "author": "Paul irish",
     "authorLink": "https://twitter.com/paul_irish",
     "date": "May 26, 2017"
-    },{
+    }, {
     "title": "Normalizing Cross-browser Flexbox Bugs",
     "href": "https://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/",
     "takeaways": "Not the most exciting article for myself, but something I ran across as I was actually building this site so I thought I shouhld read through the entire article. Plus its written by a Google engineer and I hear those people are kinda smart. The problem for me was when viewing this site on a smaller screen. The `RightSideBar/IntroMessage` and the articles were overallaping each other, this is because Chrome, Opera, and Safari currently ignore the flexbox specification that allows flex items to shrink to zero. Before finishing the article changing the rightsidebard to use `display:block;` fixed the issue but this would break later when those browsers fixed their implmentations. So following the strategy of Philip and using his wisdom you can also set `flex-shink: 0;' and you get the excpected behavior and it will continue to work once the bugs are fixed.",
