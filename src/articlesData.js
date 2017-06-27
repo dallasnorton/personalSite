@@ -1,6 +1,13 @@
 export default {
   "articles": [
     {
+    "title": "ES2017's async/await is the best thing to ever happen to JavaScript",
+    "href": "https://certsimple.com/blog/javascript-equals-async-await",
+    "takeaways": "As I have been learning new JS features added in each new year a few have been intimidating than others. Generators, async/await, and Symbols to name a few. I am really glad I took the time to read this article, wehre is simply compares async/await to previous \"versions\" of the same functionality in JS. I think it was the comparison to Promises that put me in the right mind space to finally understand what this functionality is for and a simple example that helps me realize I can use it in my own code. I don't know how much I like the syntax compared to promises since I really like promises but it is helpful to have more ways of accomplishing async tasks.",
+    "author": "Mike",
+    "authorLink": "https://twitter.com/certsimple",
+    "date": "June 26, 2017"
+    }, {
     "title": "Fluent Conf",
     "href": "https://conferences.oreilly.com/fluent/fl-ca",
     "takeaways": "I am very lucky to be sent to Fluent Conf this year. It was my first time going and it was a mixed bag. I signed up for one day of trainings which were a let down, but the conference and the keynotes were significantly better. The browser hacker's guide to instantly loading everything by Addy Osmani stood out the most to me. He covered new primitives I have never used such as preload, preconnect, prefetch and HTTP/2 server push. A lot of these features are extremly powerful and when leveraged can help you build a PWA which this site is working on becoming currently. With the features and functionilty ability also allows for it to be abused which is a great note to make sure you are using these appropriatly.",
